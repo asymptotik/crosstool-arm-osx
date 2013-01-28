@@ -13,11 +13,9 @@ the web, the most significant being:
 
 The script downloads, compiles and installs all necessary software. The only prerequisite I know of is to have the latest version of XCode and have the command line tools installed. It works for me without modification on OSX 10.7.4 with XCode 4.5.2
 
-To use, open and read the build.sh script to suite your needs. Then run the script:
+To use: open and read the build.sh script to suite your needs. Then run the script from within the folder it is contained. It will need to access the arm-unknown-linux-gnueabi.config file. 
 
      bash build.sh 
-
-From within the folder it is contained. It will need the arm-unknown-linux-gnueabi.config file. 
 
 The code will install some HomeBrew packages. I currently use mac ports. At some time during my attempts to setup this cross compiler it interfered with the install and as such I have it setup to install HomeBrew packages /brew/local such that you don't have to be a normal HomeBrew user and the environment is completely controlled.
 
