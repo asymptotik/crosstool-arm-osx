@@ -19,11 +19,11 @@ To use, open and read the build.sh script to suite your needs. Then run the scri
 
 From within the folder it is contained. It will need the arm-unknown-linux-gnueabi.config file. 
 
-The code will install some HomeBrew packages. I use mack ports, at which at some time during my attempts to setup this cross compiler it interfered with the install and as such I have it setup to install HomeBrew packages /brew/local such that you don't have to be a normal HomeBrew user and the environment is completely controlled.
+The code will install some HomeBrew packages. I currently use mac ports. At some time during my attempts to setup this cross compiler it interfered with the install and as such I have it setup to install HomeBrew packages /brew/local such that you don't have to be a normal HomeBrew user and the environment is completely controlled.
 
 Once HomeBrew is installed, the script creates a sparse HFSX (case sensitive) filesystem on which to perform the build. The filesystem image is a file that lives in the same directory as the script. It is currently set to be created at 8gig. Please be sure to have that much space available. 
 
-Then the script then downlaods and installs crosstool-ng. It helps to be a little familiar with the tool. See http://crosstool-ng.org/ 
+The script then downlaods and installs crosstool-ng. It helps to be a little familiar with the tool. See http://crosstool-ng.org/ 
 
 Once crosstool is installed, it is configured with the arm-unknown-linux-gnueabi.config file by copying that file to the approproite location where crosstool will pick it up. The script then automatically fires up the crosstool config menu (menuconfig) so you can make changes. The menuconfig program is basically a front end for the config file. You can either make changes or just exit. You can also just edit the config file before running the script and remove call to:
 
