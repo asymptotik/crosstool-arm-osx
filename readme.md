@@ -1,3 +1,5 @@
+# Raspberry Pi Cross Compiler Script for OSX
+
 Author: Rick Boykin
 
   Installs a gcc cross compiler for compiling code for raspberry pi on OSX.
@@ -31,7 +33,7 @@ Author: Rick Boykin
 
   As a smoke test you can create a simple HelloWorld program and compile it. That would be something like:
 
-<code>
+```bash
 cat <<EOF >> HelloWorld.cpp
 #include <iostream>
 using namespace std;
@@ -44,6 +46,6 @@ int main ()
 EOF
 
 PATH=/Volumes/CrossToolNG/install/arm-unknown-linux-gnueabi/bin:$PATH arm-linux-gnueabihf-g++ HelloWorld.cpp -o HelloWorld
-</code>
+```
 
 Go forth and compile.
