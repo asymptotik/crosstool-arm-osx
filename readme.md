@@ -6,12 +6,9 @@ Author: Rick Boykin
   This script is based on several scripts and forum posts I've found around
   the web, the most significant being: 
 
-  http://okertanov.github.com/2012/12/24/osx-crosstool-ng/
-
+  http://okertanov.github.com/2012/12/24/osx-crosstool-ng
   http://crosstool-ng.org/hg/crosstool-ng/file/715b711da3ab/docs/MacOS-X.txt
-
   http://gnuarmeclipse.livius.net/wiki/Toolchain_installation_on_OS_X
-
   http://elinux.org/RPi_Kernel_Compilation
 
   The script downloads, compiles and installs all necessary software. The only prerequisite I know of is to have the latest version of XCode and have the command line tools installed. It works for me without modification on OSX 10.7.4 with XCode 4.5.2
