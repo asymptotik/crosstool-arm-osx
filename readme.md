@@ -11,7 +11,7 @@ the web, the most significant being:
   * http://gnuarmeclipse.livius.net/wiki/Toolchain_installation_on_OS_X
   * http://elinux.org/RPi_Kernel_Compilation
 
-The script downloads, compiles and installs all necessary software. The only prerequisite I know of is to have the latest version of XCode and have the command line tools installed. It works for me without modification on OSX 10.7.4 with XCode 4.5.2
+The script downloads, compiles and installs all necessary software. The only prerequisite I know of is to have the latest version of XCode and have the command line tools installed. It works without modification on OSX 10.10.1 with XCode 6.
 
 To use: open and read the build.sh script to suite your needs. Then run the script from within the folder it is contained. It will need to access the arm-unknown-linux-gnueabi.config file. 
 
