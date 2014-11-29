@@ -39,7 +39,7 @@ BrewTools="gnu-sed binutils gawk automake libtool bash"
 BrewToolsExtra="https://raw.github.com/Homebrew/homebrew-dupes/master/grep.rb"
 ImageName=CrossTool2NG
 ImageNameExt=${ImageName}.sparseimage
-CrossToolVersion=crosstool-ng-1.17.0
+CrossToolVersion=crosstool-ng-1.20.0
 ToolChainName=arm-unknown-linux-gnueabi
 
 #
